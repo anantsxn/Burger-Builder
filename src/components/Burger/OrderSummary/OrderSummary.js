@@ -4,10 +4,6 @@ import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
 
-    componentDidUpdate(prevProps, prevState) {
-        console.log('[OrderSummary] didUpdate');
-    }
-
     render () {
 
         const ingredientSummary = Object.keys(this.props.ingredients)
